@@ -5,10 +5,17 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-            String x;
-            x = sc.next();
-            System.out.println("Você digitou = " + x);
-        sc.close();
+        String x;
+        int y;
+        double z;
+        x = sc.next();
+        y = sc.nextInt();
+        z = sc.nextDouble();
+        System.out.println("Você digitou = ");
+        System.out.println(x);
+        System.out.println(y);
+        System.out.println(z);
 
+        sc.close();
     }
 }
