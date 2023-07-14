@@ -40,7 +40,7 @@ public class App {
             }
         
         if (num == 4){
-                System.out.printf("Muito Obrigado");
+                System.out.printf("Muito Obrigado \r\n");
                 System.out.printf("Alcool: %d%n", alcool);
                 System.out.printf("Gasoline: %d%n", gasoline);
                 System.out.printf("Diesel: %d%n", diesel);
