@@ -12,7 +12,7 @@ public class Main {
 
         int diferenca = (A * B - C * D);
 
-        System.out.println("DIFERENCA= " + diferenca);
+        System.out.printf("DIFERENCA= " + diferenca);
 
         sc.close();
 
