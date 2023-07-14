@@ -23,5 +23,6 @@ public class App {
 		else {
 			System.out.println("Intervalo (75,100]");
 		}
+		sc.close();
     }
 }
