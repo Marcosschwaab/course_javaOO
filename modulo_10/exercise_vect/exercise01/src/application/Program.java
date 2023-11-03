@@ -8,9 +8,13 @@ import entities.Rent;
 public class Program {
     public static void main(String[] args) throws ParseException {
         Scanner sc = new Scanner(System.in);
+       
         Rent[] vect = new Rent[10];
+       
         System.out.print("How many rooms will be rented? ");
+       
         int n = sc.nextInt();
+       
         for (int i = 1; i <= n; i++) {
             System.out.println();
             System.out.println("Rent #" + i + ":");
